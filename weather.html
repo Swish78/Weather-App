@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Weather for {{ weather_data.city }}</h1>
+    <p>{{ weather_data.description }}</p>
+    <p>Temperature: {{ weather_data.temperature }} &deg;C</p>
+    <img src="http://openweathermap.org/img/wn/{{ weather_data.icon }}.png" alt="weather icon">
+</body>
+</html>
